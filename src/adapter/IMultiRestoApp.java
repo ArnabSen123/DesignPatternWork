@@ -1,7 +1,12 @@
+
+
 package adapter;
 
 public interface IMultiRestoApp {
-    void displayMenus(XmlData xmlData);
 
-    void displayRecommendations(XmlData xmlData);
+    void displayJson(XmlData xmlData);
+
+    void displayProtobuff(XmlData xmlData);
+
 }
+

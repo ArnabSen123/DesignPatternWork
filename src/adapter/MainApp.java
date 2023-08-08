@@ -11,7 +11,7 @@ public class MainApp {
         IMultiRestoApp adapter1 = new FancyUIServiceAdapter();
         adapter1.displayJson(myData);
         adapter1.displayProtobuff(myData);
-        
+
     }
 
 }

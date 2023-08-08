@@ -6,6 +6,7 @@ import factory.concrete_product.Lengendary_Asteroid;
 import factory.creator.AsteroidsFactory;
 import factory.product.Asteroids;
 
+
 public class Level3AsteroidsFactory extends AsteroidsFactory {
 
     @Override
@@ -14,8 +15,8 @@ public class Level3AsteroidsFactory extends AsteroidsFactory {
             return (Asteroids) new Diamond_Asteroids();
         }
         else if(score> 2000 && score <3000){
-            return (Asteroids) new Gold_Asteroids();
+            return  new Gold_Asteroids();
         }
-        else return (Asteroids) new Lengendary_Asteroid();
+        else return new Lengendary_Asteroid();
     }
 }
